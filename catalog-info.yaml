@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "hello-react-app"
+  description: "abcd123"
+  annotations:
+    github.com/project-slug: Manish3323/hello-react-app
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "team-d"

@@ -1,0 +1,8 @@
+site_name: "hello-react-app"
+site_description: "abcd123"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
