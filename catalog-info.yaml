@@ -11,7 +11,7 @@ spec:
   lifecycle: experimental
   owner: "team-d"
   consumesApis:
-    - api:spottify
+    - api:spotify
     - api:petstore
   providesApis:
     - api:streetlights
