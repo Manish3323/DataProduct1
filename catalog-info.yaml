@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: DataProduct
+kind: Component
 metadata:
   name: "hello-react-app"
   description: "abcd123"
