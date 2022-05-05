@@ -10,8 +10,8 @@ spec:
   type: service
   lifecycle: experimental
   owner: "team-d"
-  dependsOn:
+  consumesApis:
     - api:spotify
     - api:petstore
-  dependencyOf:
+  providesApis:
     - api:streetlights
