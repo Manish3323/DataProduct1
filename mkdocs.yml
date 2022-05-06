@@ -3,6 +3,7 @@ site_description: "abcd123"
 
 nav:
   - Introduction: index.md
+  - Deployment: deployment.md
 
 plugins:
   - techdocs-core
