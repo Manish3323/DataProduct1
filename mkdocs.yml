@@ -3,7 +3,7 @@ site_description: "Sales Info"
 
 nav:
   - Introduction: index.md
-  - Datasets: deployment.md
+  - Datasets: datasets.md
 
 plugins:
   - techdocs-core
