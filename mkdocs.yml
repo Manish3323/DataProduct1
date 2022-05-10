@@ -1,9 +1,9 @@
-site_name: "hello-react-app"
-site_description: "abcd123"
+site_name: "DataProduct1"
+site_description: "Sales Info"
 
 nav:
   - Introduction: index.md
-  - Deployment: deployment.md
+  - Datasets: deployment.md
 
 plugins:
   - techdocs-core
