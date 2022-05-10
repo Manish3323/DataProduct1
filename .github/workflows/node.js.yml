@@ -30,7 +30,7 @@ jobs:
     - name: generate docs
       run: techdocs-cli generate --no-docker
     - name: publish docs
-      run: techdocs-cli publish --publisher-type azureBlobStorage --storage-name 'backstage' --entity default/Dataproduct/hello-react-app --azureAccountName  ${{ secrets.AZURE_ACCOUNT_NAME }} --azureAccountKey  ${{ secrets.AZURE_ACCOUNT_KEY }}
+      run: techdocs-cli publish --publisher-type azureBlobStorage --storage-name 'backstage' --entity default/Dataproduct/DataProduct1 --azureAccountName  ${{ secrets.AZURE_ACCOUNT_NAME }} --azureAccountKey  ${{ secrets.AZURE_ACCOUNT_KEY }}
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
