@@ -60,8 +60,8 @@ spec:
   lifecycle: experimental
   owner: "default/team-d"
   
- ---
- apiVersion: backstage.io/v1alpha1
+---
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   namespace: "group-functions"
