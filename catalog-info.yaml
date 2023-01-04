@@ -10,7 +10,7 @@ metadata:
 spec:
   type: spark
   lifecycle: experimental
-  owner: "default/user:team-d"
+  owner: "default/team-d"
   consumesApis:
     - api:spotify
     - api:petstore
@@ -30,7 +30,7 @@ spec:
   type: spark
   subcomponentOf: "DataProduct1"
   lifecycle: experimental
-  owner: "default/user:team-d"
+  owner: "default/team-d"
   consumesApis:
     - api:spotify
     - api:petstore
