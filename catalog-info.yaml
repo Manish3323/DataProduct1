@@ -16,3 +16,23 @@ spec:
     - api:petstore
   providesApis:
     - api:streetlights
+---
+apiVersion: backstage.io/v1alpha1
+kind: DataProduct3
+metadata:
+  namespace: "domain1"
+  name: "DataProduct3"
+  description: "A data quanum of Data mesh"
+  annotations:
+    github.com/project-slug: Manish3323/DataProduct1
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: spark
+  subcomponentOf: "DataProduct1"
+  lifecycle: experimental
+  owner: "team-d"
+  consumesApis:
+    - api:spotify
+    - api:petstore
+  providesApis:
+    - api:streetlights
