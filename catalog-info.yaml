@@ -10,7 +10,7 @@ metadata:
 spec:
   type: spark
   lifecycle: experimental
-  owner: "team-d"
+  owner: "default/user:team-d"
   consumesApis:
     - api:spotify
     - api:petstore
