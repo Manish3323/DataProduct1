@@ -25,7 +25,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: ada-table
-  subcomponentOf: "DataProduct1"
+  subcomponentOf: "hockeydataset"
   lifecycle: experimental
   owner: "default/team-d"
 
