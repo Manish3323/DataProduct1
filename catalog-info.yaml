@@ -28,7 +28,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: spark
-  subcomponentOf: "DataProduct1"
+  subcomponentOf: "domain1/DataProduct1"
   lifecycle: experimental
   owner: "default/team-d"
   consumesApis:
