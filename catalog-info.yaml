@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: DataProduct
+kind: Component
 metadata:
   namespace: "domain1"
   name: "DataProduct1"
@@ -8,7 +8,7 @@ metadata:
     github.com/project-slug: Manish3323/DataProduct1
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: spark
+  type: spark-master
   lifecycle: experimental
   owner: "default/team-d"
   consumesApis:
@@ -18,7 +18,7 @@ spec:
     - api:streetlights
 ---
 apiVersion: backstage.io/v1alpha1
-kind: DataProduct
+kind: Component
 metadata:
   namespace: "domain1"
   name: "DataProduct3"
@@ -27,8 +27,8 @@ metadata:
     github.com/project-slug: Manish3323/DataProduct1
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: spark
-  subcomponentOf: "domain1/DataProduct1"
+  type: spark-slave
+  subcomponentOf: "DataProduct1"
   lifecycle: experimental
   owner: "default/team-d"
   consumesApis:
