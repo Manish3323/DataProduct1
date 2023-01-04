@@ -28,4 +28,35 @@ spec:
   subcomponentOf: "hockeydataset"
   lifecycle: experimental
   owner: "default/team-d"
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  namespace: "ada-domain"
+  name: "nationalhockeydataset"
+  title: "National Hockey Dataset"
+  description: "A data quanum of Data mesh"
+  annotations:
+    github.com/project-slug: Manish3323/DataProduct1
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: dataset
+  lifecycle: experimental
+  owner: "default/team-d"
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  namespace: "ada-domain"
+  name: "nationalhockeydataset.nhlgame"
+  title: "nhl game"
+  description: "A data quanum of Data mesh"
+  annotations:
+    github.com/project-slug: Manish3323/DataProduct1
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: ada-table
+  subcomponentOf: "nationalhockeydataset"
+  lifecycle: experimental
+  owner: "default/team-d"
 
