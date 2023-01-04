@@ -1,6 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: DataProduct
 metadata:
+  namespace: "domain1"
   name: "DataProduct1"
   description: "A data quanum of Data mesh"
   annotations:
